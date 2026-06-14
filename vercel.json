@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "qrcodepdfbackend-production.up.railway.app/api/:path*"
+      "destination": "https://qrcodepdfbackend-production.up.railway.app/api/:path*"
     },
     {
       "source": "/pdf/:path*",
-      "destination": "qrcodepdfbackend-production.up.railway.app/pdf/:path*"
+      "destination": "https://qrcodepdfbackend-production.up.railway.app/pdf/:path*"
     },
     {
       "source": "/((?!api|pdf).*|[^.]+)",
